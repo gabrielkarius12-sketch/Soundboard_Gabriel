@@ -1,6 +1,6 @@
 /* Grunddesign der Seite */
 body {
-    background-color: #121212; /* Dunkler Hintergrund */
+    background-color: #050655; /* Dunkler Hintergrund */
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    color: #00ffcc; /* Neon-Türkise Überschrift */
+    color: #ff0000; /* Neon-Türkise Überschrift */
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -30,7 +30,7 @@ h1 {
 /* Design der einzelnen Buttons */
 .sound-btn {
     background-color: #1e1e1e;
-    border: 3px solid #00ffcc;
+    border: 3px solid #ff0080;
     border-radius: 16px;
     padding: 15px;
     color: white;
@@ -49,15 +49,15 @@ h1 {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 12px;
+    border-radius: 1000000000000000000000000000px;
+    margin-bottom: 40px;
     background-color: #ffffff; /* Falls ein Bild transparente Stellen hat */
 }
 
 /* Hover-Effekt: Wenn die Maus über den Button fährt */
 .sound-btn:hover {
-    background-color: #00ffcc;
+    background-color: #ff0022;
     color: #121212;
     transform: translateY(-5px) scale(1.03);
-    box-shadow: 0 8px 15px rgba(0, 255, 204, 0.4);
+    box-shadow: 0 8px 15px rgba(255, 0, 43, 0.4);
 }
